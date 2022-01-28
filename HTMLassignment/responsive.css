@@ -1,0 +1,132 @@
+@media screen and (min-width:768px) {
+  .hamburger_button{
+    display:none;
+  }
+
+  .hamburger_button:hover{
+    color: white;
+    opacity:0.8;
+  }
+}
+
+@media screen and (max-width:767px) {
+
+  header{
+    margin:0;
+    padding:0;
+    width:100%;
+  }
+
+  .header_container{
+    padding:10px 15px 10px 15px;
+    align-items: center;
+  }
+
+  .header_title{
+    padding:0;
+  }
+
+  .hamburger_button{
+    display:show;
+  }
+
+  .first_block{
+    margin:0px;
+    padding:0px;
+    height:fit-content;
+    background-image:none;
+  }
+
+  main{
+    width:100%;
+    margin:0px;
+    padding:0px;
+    text-align: center;
+    background-image: url(https://camp.potepan.com/wp-content/themes/potepancamp/assets/images/home/first-view/top-hero-sp.jpg);
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+  }
+
+  .header_list{
+    display:none;
+  }
+
+  .header_title img{
+    width: 40%;
+  }
+
+  .header_listitem{
+    display:none;
+  }
+
+  .main_container{
+    width: 100%;
+    padding: 280px 0px 0px 0px;
+    text-align: center;
+  }
+
+  .main_heading{
+    font-size: 18px;
+  }
+
+  .main_container_images{
+    display: flex;
+    justify-content: center;
+  }
+
+  .main_container_images img{
+    width:30%;
+  }
+
+  .content_upperbuttons{
+    padding:10px 15px 0px 15px;
+    display: flex;
+    flex-flow: row wrap;
+    flex-direction: column;
+  }
+
+  .button_white{
+    margin:10px 0px 0px 0px;
+    
+  }
+
+  .main_bottom_p{
+    padding: 20px 15px 20px 15px;
+    text-align: left;
+    
+  }
+
+  .middle_orange{
+    height:fit-content;
+    width:100%;
+
+  }
+
+  .middle_orange_container{
+    width:100%;
+    padding:0;
+    margin:0;
+    display:flex;
+    flex-direction:column;
+  }
+
+  .middle_orange_para{
+    max-width:100%;
+    padding:0px 20px 30px 20px;
+  }
+
+  .middle_orange_para h1{
+    text-align: center;
+    font-size: 40px;
+  }
+
+  .middle_orange_para p{
+    font-size: 13px;
+  }
+
+  .content_middle_button{
+    margin-bottom: 20px;
+  }
+
+  
+}
