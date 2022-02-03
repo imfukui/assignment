@@ -1,0 +1,23 @@
+#display{
+  width: 250px;
+  height:fit-content;
+  padding:10px;
+  margin-left: 18px;
+  background-color: cadetblue;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 25px;
+  text-align: right;
+}
+
+.table-container{
+  width:300px;
+  padding-left: 33px;
+}
+
+table button{
+  height: 45px;
+  width: 55px;
+  font-size: 15px;
+  border: solid 2px;
+}
