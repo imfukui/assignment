@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
   <link rel="stylesheet" href="main.css">
-  <title>ストップウォッチ</title>
+  <title>ストップウォッチ&電卓</title>
 </head>
 <body>
     <h3>ストップウォッチ</h3>
@@ -12,6 +12,46 @@
     <button type="button" id="start-button">スタート</button>
     <button type="button" id="stop-button">ストップ</button>
     <button type="button" id="reset-button">リセット</button>
+    
+    <div class="display-container">
+      <p id="display">0</p>
+    </div>
+    <div class="table-container">
+      <table>
+        <tr>
+          <td><button class="cha-btn" type="button" value="7" onclick="fresh(this)">7</button></td>
+          <td><button class="cha-btn" type="button" value="8" onclick="fresh(this)">8</button></td>
+          <td><button class="cha-btn" type="button" value="9" onclick="fresh(this)">9</button></td>
+          <td><button class="sign-btn" type="button" value="+" onclick="fresh(this)" disabled>+</button></td>
+        </tr>
+        <tr>
+          <td><button class="cha-btn" type="button" value="4" onclick="fresh(this)">4</button></td>
+          <td><button class="cha-btn" type="button" value="5" onclick="fresh(this)">5</button></td>
+          <td><button class="cha-btn" type="button" value="6" onclick="fresh(this)">6</button></td>
+          <td><button class="sign-btn" type="button" value="-" onclick="fresh(this)" disabled>-</button></td>
+        </tr>
+        <tr>
+          <td><button class="cha-btn" type="button" value="1" onclick="fresh(this)">1</button></td>
+          <td><button class="cha-btn" type="button" value="2" onclick="fresh(this)">2</button></td>
+          <td><button class="cha-btn" type="button" value="3" onclick="fresh(this)">3</button></td>
+          <td><button class="sign-btn" type="button" value="*" onclick="fresh(this)" disabled>*</button></td>
+        </tr>
+      </table>
+      <table>
+        <tr>
+          <td><button class="reser-btn" type="button" value="00" onclick="fresh(this)">00</button></td>
+          <td><button class="reser-btn" type="button" value="0" onclick="fresh(this)">0</button></td>
+          <td><button class="dot-btn" type="button" value="." onclick="fresh(this)">.</button></td>
+          <td><button class="sign-btn" type="button" value="/" onclick="fresh(this)" disabled>/</button></td>
+        </tr>
+      </table>
+      <table>
+        <tr>
+          <td><button class="reser-btn" type="button" value="AC" onclick="fresh(this)">AC</button></td>
+          <td><button class="reset-btn" type="button" value="=" onclick="fresh(this)">=</button></td>
+        </tr>
+      </table>
+    </div>
   <script src="main.js"></script>
 </body>
 </html>
